@@ -105,6 +105,6 @@ case ${chosen} in
 		run_cmd --suspend
         ;;
     $logout)
-		run_cmd --logout
+		i3-msg ext
         ;;
 esac
